@@ -1,32 +1,12 @@
-import { Button } from "../../Components";
-import { useFetchOnAction } from "../../Hooks";
-
+import { useEffect } from "react";
 import style from "./Home.module.scss";
 
 const Home = () => {
-  const [fetchData, fetchFunc] = useFetchOnAction();
+  useEffect(() => {
+    document.title = "Home";
+  }, []);
 
-  const { data, loading, error } = fetchData;
-
-  const handleClick = () => {
-    fetchFunc("/db/demo.json");
-  };
-
-  return (
-    <main className={style.home}>
-      {loading ? (
-        <h1>Loading...</h1>
-      ) : (
-        <>
-          <h1>Home Page</h1>
-          {error ? <h2 className={style.error}>{error}</h2> : <h2>{data?.msg}</h2>}
-          <Button type="button" onClick={handleClick}>
-            Health Check
-          </Button>
-        </>
-      )}
-    </main>
-  );
+  return <h1 className={style.home}>This is home</h1>;
 };
 
 export default Home;
