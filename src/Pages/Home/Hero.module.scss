@@ -11,7 +11,8 @@
   top: 45%;
   left: 15%;
   transform: translate(-50%, -50%);
-  color: #161c2f;
+  //   color: #161c2f;
+  color: white;
   font-size: 6vw;
   font-family: var(--font1);
 }
@@ -22,6 +23,7 @@
   left: 50%;
   padding-right: 2.5vw;
   font-size: 2vw;
+  color: white;
 }
 
 @media (max-width: 660px) {

@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import Hero from "./Hero";
 import Navbar from "../../Components/Navbar/Navbar";
 import About from "./About";
+import Motto from "./Motto";
 const Home = () => {
   useEffect(() => {
     document.title = "Home";
@@ -13,6 +14,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <About />
+      <Motto />
     </>
   );
 };
