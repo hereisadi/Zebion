@@ -1,12 +1,20 @@
 import { useEffect } from "react";
-import style from "./Home.module.scss";
-
+// import style from "./Home.module.scss";
+import Hero from "./Hero";
+import Navbar from "../../Components/Navbar/Navbar";
+import About from "./About";
 const Home = () => {
   useEffect(() => {
     document.title = "Home";
   }, []);
 
-  return <h1 className={style.home}>This is home</h1>;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+    </>
+  );
 };
 
 export default Home;

@@ -1,0 +1,47 @@
+.herotop {
+  background: url(https://res.cloudinary.com/dp92qug2f/image/upload/v1680801403/zebion/kaziranga_bg_rpi0sy.avif);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.herotxt {
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: #161c2f;
+  font-size: 6vw;
+  font-family: var(--font1);
+}
+
+.typewiter {
+  position: absolute;
+  top: 42.5%;
+  left: 50%;
+  padding-right: 2.5vw;
+  font-size: 2vw;
+}
+
+@media (max-width: 660px) {
+  .herotop {
+    background-position: 80%;
+  }
+
+  .herotxt {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 10vw;
+  }
+
+  .typewiter {
+    position: absolute;
+    top: 42.5%;
+    left: 45%;
+    padding-right: 2.5vw;
+    font-size: 4vw;
+  }
+}
