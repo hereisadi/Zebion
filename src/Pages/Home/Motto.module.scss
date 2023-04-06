@@ -1,0 +1,81 @@
+.motto {
+  margin: 2vw 0;
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 5vw 0;
+    font-size: 3.5vw;
+    font-weight: 600;
+    font-family: var(--font1);
+  }
+}
+
+.mottocont {
+  user-select: none;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  .indicard {
+    width: 31%;
+    flex: none;
+    order: 1;
+    height: 25vw;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 12px rgba(79, 79, 79, 0.2),
+      -4px -4px 12px rgba(242, 242, 242, 0.25);
+    background-color: var(--bg1);
+    margin: 3vw 0;
+    padding: 0 1.5vw;
+  }
+  .imgholder {
+    width: 40%;
+    margin: 3vw auto;
+    height: 10vw;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      pointer-events: none;
+    }
+  }
+  .mottodic {
+    h3 {
+      font-family: var(--font1);
+      font-size: 1.7vw;
+      color: #161c2f;
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  .motto {
+    margin: 15vw 0;
+    h1 {
+      font-size: 7vw;
+    }
+  }
+
+  .mottocont {
+    flex-direction: column;
+    width: 95%;
+    .indicard {
+      width: 65%;
+      margin: 6vw auto;
+      height: 50vw;
+      padding: 0 4vw;
+      .imgholder {
+        width: 60%;
+        margin: 8vw auto;
+        height: 20vw;
+      }
+      .mottodic {
+        h3 {
+          font-size: 3.5vw;
+          color: #161c2f;
+        }
+      }
+    }
+  }
+}

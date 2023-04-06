@@ -44,6 +44,9 @@ const Navbar = () => {
           <a href="#zebion">ABOUT US</a>
         </li>
         <li>
+          <a href="#motto">MOTTO</a>
+        </li>
+        <li>
           {" "}
           <NavLink to="/work">WORK</NavLink>
         </li>
