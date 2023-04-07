@@ -266,6 +266,105 @@ export const wildlifesancdata = [
 
 export const ramsardata = [
   {
+    id: "Sultanpur National Park",
+    title: "Sultanpur National Park",
+    Locn: "Haryana",
+    Area: "142.52 hectares.",
+    habitat:
+      "Some of the resident birds are common hoopoe, paddyfield pipit, purple sunbird, little cormorant, pigeons, Indian myna, Eurasian thick-knee, gray francolin, black francolin, Indian roller, white-throated kingfisher, spot billed duck, painted stork, white ibis, black headed ibis, little egret, great egret, cattle egret, and the India crested lark.",
+    issuesfacing:
+      ":This Bird Sanctuary, ideal for birding and bird watchers, is best visited in winters when a large number of migratory birds come here. Sultanpur has the typical North Indian climate of harsh summers (up to 46 °C) and cold winters (low of up to 9 °C). The rainy season is short, from July to the end of August.",
+    endangered: "",
+    weather: "",
+  },
+  {
+    id: "Bhitarkanika Mangroves ",
+    title: "Bhitarkanika Mangroves ",
+    Locn: "Odisha",
+    Area: "672 km2",
+    habitat:
+      "About 62 mangrove species occur in the Bhitarkanika Mangroves, including Avicenna, Bruguiera, Heritiera and Rhizophora. Reptiles present in the mangroves include saltwater crocodile, king cobra, Indian python and water monitor. Between August 2004 and December 2006, 263 bird species were recorded, encompassing 147 resident and 99 migrant species. A heronry encloses about 4 ha (9.9 acres), where 11,287 nests were counted in 2006. Olive ridley turtles arrive in January to March for nesting at Gahirmatha Beach. An average of 240,000 nests per season was estimated between 1976 and 1996. Up to 80,000 individuals were captured every year until 1982. Since 1983, collecting and marketing turtles and their eggs is banned",
+    issuesfacing:
+      "Climate change impact:Reduced freshwater flow may change the current dynamics, says the assessment report. As it is, the dense mangrove cover in Bhitarkanika has dropped over the years. In 2002, it stood at 122 sq km, about 18 pc of the sanctuary. By 2020, it dropped to 101 sq km, reporting a 14 pc decline.",
+    endangered: "",
+    weather: "",
+  },
+  {
+    id: "Loktak Lake",
+    title: "Loktak Lake",
+    Locn: "Manipur",
+    Area: "287 sq km.",
+    habitat:
+      "57 species of waterbirds and another 14 species of wetland associated birds have been noted in the lake including 28 species of migratory waterfowl (most migrating from different parts of the northern hemisphere beyond the Himalayas).[21] Also recorded were 425 species of animals—249 vertebrates and 176 invertebrates). The list includes rare animals such as the Indian python, sambhar and barking deer. Keibul Lamjao National Park is the natural habitat of one of the most endangered deer, the brow-antlered deer (Cervus eldi eldi) which was once thought to be extinct, which was declared a national park only to preserve and conserve this species of Eld's deer.",
+    issuesfacing:
+      "With an average annual rainfall of 1,183 mm (46.57 in) tropical monsoon climate prevails in the valley. Temperatures range from 0 to 35 °C (32 to 95 °F). February and March are the driest months",
+    endangered: "",
+    weather: "",
+  },
+  {
+    id: "Ashtamudi Lake",
+    title: "Ashtamudi Lake",
+    Locn: "Kerala",
+    Area: "61.4 km2",
+    habitat:
+      "Ashtamudi Estuary has mangroves Avicennia officinalis, Brugiera gymnorrhiza and Sonneratia caseolaris as also 43 species of marshy and mangrove associates including two endangered species Syzygium travancoricum (endangered species according to the Red Data Book of Indian Plants) and Calamus rotang in the Terrestrial system.[2] These species offer excellent scope for development of marine bioreserve to promote eco-tourism in the estuarine of the lake.[10] IUCN lists the two endangered species in IUCN 2008. The total number of Syzygium travancoricum is reported to be very small, not more than 200. The major threats to the endangered species are reportedly draining of the wet lands and conversion into paddy fields",
+    issuesfacing: "",
+    endangered: "",
+    weather:
+      "Temperatures recorded in the area are a maximum of 27.5 °C (81.5 °F) and a minimum of 25.5 °C (77.9 °F). The climate is hot and humid during April–May while cool during December–January.",
+  },
+  {
+    id: "Chitrangudi Bird Sanctuary",
+    title: "Chitrangudi Bird Sanctuary",
+    Locn: "Tamil Nadu",
+    Area: "4763 km2",
+    habitat:
+      "The breeding population of migratory waterbirds arrive here between October and February and include: spot-billed pelican, Asian openbill stork, grey heron, purple heron, pond heron, little egret and great egret.The sanctuary vegetation is mostly tropical dry deciduous forest. It is dominated by babul (thorn mimosa) along with Prosopis juliflora and the grasses Bermuda grass and Dichanthium foveolatum (Eremopogon foveolatus). A babul plantation was planted in 1979 by Farm Forestry Division. The invasive Prosopis is slowly encroaching on much of the sanctuary area, retarding growth of babuls. The irrigation tank bund and the area outside the tank have tamarind trees, fig trees, neem trees, portia trees, silk trees (Albizzia amara), drumstick trees (murungai Tamil: முருங்கை), and palmyra palms. The medicinal plants Ocimum sanctum and Gloriosa superba also grow in the area",
+    issuesfacing: "",
+    endangered: "",
+    weather: "",
+  },
+  // {
+  //   id:"",
+  //   title:"",
+  //   Locn:"",
+  //   Area:"",
+  //   habitat:"",
+  //   issuesfacing:"",
+  //   endangered:"",
+  //   weather:""
+  // },
+  // {
+  //   id:"",
+  //   title:"",
+  //   Locn:"",
+  //   Area:"",
+  //   habitat:"",
+  //   issuesfacing:"",
+  //   endangered:"",
+  //   weather:""
+  // },
+  // {
+  //   id:"",
+  //   title:"",
+  //   Locn:"",
+  //   Area:"",
+  //   habitat:"",
+  //   issuesfacing:"",
+  //   endangered:"",
+  //   weather:""
+  // },
+  // {
+  //   id:"",
+  //   title:"",
+  //   Locn:"",
+  //   Area:"",
+  //   habitat:"",
+  //   issuesfacing:"",
+  //   endangered:"",
+  //   weather:""
+  // },
+  {
     id: "more coming soon",
     title: "more coming soon.....",
     Locn: " more coming soon....",
