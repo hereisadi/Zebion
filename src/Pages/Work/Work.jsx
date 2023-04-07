@@ -50,7 +50,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className={style.dropdowndiv}>
+        {/* <div className={style.dropdowndiv}>
           <div
             className={` ${show === "core" ? "active-link" : ""}`}
             onClick={() => setShow("core")}
@@ -63,7 +63,7 @@ const Work = () => {
               <Dropdown.Item eventKey="Ramsar Sites">Ramsar Sites</Dropdown.Item>
             </DropdownButton>
           </div>
-        </div>
+        </div> */}
 
         <div className="tab_content">
           {show === "core" && active === "National Parks" && <Nationalparks />}
