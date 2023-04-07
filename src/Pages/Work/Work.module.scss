@@ -84,3 +84,22 @@
     }
   }
 }
+
+@media (max-width: 660px) {
+  .hometop {
+    h1 {
+      padding: 25vw 5vw;
+      font-size: 7vw;
+    }
+  }
+
+  .park h1 {
+    font-size: 6vw;
+    margin-top: 20vw;
+    margin-bottom: 10vw;
+  }
+
+  .detailmain {
+    width: 100%;
+  }
+}
