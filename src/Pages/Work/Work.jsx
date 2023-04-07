@@ -8,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Nationalparks from "./Nationalparks";
 import Wildlifesanc from "./Wildlifesanc";
 import Ramsar from "./Ramsar";
+import Footer from "../../Components/Footer/Footer";
 
 const Work = () => {
   const [show, setShow] = useState("National Parks");
@@ -27,6 +28,11 @@ const Work = () => {
       <div className={style.home}>
         <div className={style.hometop}>
           <h1>We Work for the Upliftment of Biosphere reserves and Climate.</h1>
+          <h2>
+            One Tap Dropdown gives the detailed analysis of every Biosphere reserve from
+            the effect of Climate change to general info. For the Climate Activists with
+            the layman.
+          </h2>
         </div>
 
         <div className={style.dropdowndiv}>
@@ -50,6 +56,8 @@ const Work = () => {
           {show === "core" && active === "Ramsar Sites" && <Ramsar />}
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

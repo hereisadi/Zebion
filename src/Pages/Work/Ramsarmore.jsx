@@ -28,7 +28,9 @@ const Ramsarmore = () => {
                   <br /> {item.habitat}
                 </li>
                 <li>
-                  <span className={style.bold}>Issues due to Global Warming:</span>
+                  <span className={style.bold} id={style.underline}>
+                    Issues due to Climate change:
+                  </span>
                   <br />
                   <br />
                   {item.issuesfacing}
