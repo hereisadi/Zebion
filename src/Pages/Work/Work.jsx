@@ -14,6 +14,9 @@ const Work = () => {
   const [show, setShow] = useState("National Parks");
   const [active, setActive] = useState("National Parks");
 
+  const [active1] = useState("Risk-o-meter");
+
+  const [active2] = useState("Temperature Record");
   const handleClick = (e) => {
     // console.log(e);
     setActive(e);
@@ -50,20 +53,27 @@ const Work = () => {
           </div>
         </div>
 
-        {/* <div className={style.dropdowndiv}>
+        <div className={style.dropdowndiv}>
           <div
             className={` ${show === "core" ? "active-link" : ""}`}
             onClick={() => setShow("core")}
           >
-            <DropdownButton id="dropdown-custom-1" title={active} onSelect={handleClick}>
+            <DropdownButton id="dropdown-custom-1" title={active1} onSelect={handleClick}>
               <Dropdown.Item eventKey="National Parks">Risk-o-meter</Dropdown.Item>
-              <Dropdown.Item eventKey="Wildlife Sanctuary">
-                Wildlife Sanctuary
-              </Dropdown.Item>
-              <Dropdown.Item eventKey="Ramsar Sites">Ramsar Sites</Dropdown.Item>
             </DropdownButton>
           </div>
-        </div> */}
+        </div>
+
+        <div className={style.dropdowndiv} id={style.lastdrop}>
+          <div
+            className={` ${show === "core" ? "active-link" : ""}`}
+            onClick={() => setShow("core")}
+          >
+            <DropdownButton id="dropdown-custom-1" title={active2} onSelect={handleClick}>
+              <Dropdown.Item eventKey="National Parks">Teamperature Record</Dropdown.Item>
+            </DropdownButton>
+          </div>
+        </div>
 
         <div className="tab_content">
           {show === "core" && active === "National Parks" && <Nationalparks />}
