@@ -1,0 +1,86 @@
+.home {
+  background: url(https://res.cloudinary.com/dp92qug2f/image/upload/v1680833522/3483001_tugcgg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  height: auto;
+  box-shadow: inset 0 0 0 10px #1f1834b1;
+  position: relative;
+  .dropdowndiv {
+    margin: 5vw auto;
+    text-align: center;
+  }
+}
+
+.hometop {
+  h1 {
+    padding-top: 15vw;
+    text-align: center;
+    color: white;
+    font-family: var(--font1);
+    font-size: 3vw;
+  }
+}
+
+.park,
+.wildlifesnc,
+.ramsars {
+  color: white;
+}
+
+.park h1 {
+  font-size: 3vw;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.displayallpark {
+  margin: 3.5vw auto 0 auto;
+  padding-bottom: 3.5vw;
+  .ntionprk {
+    width: 70%;
+    margin: 1.5vw auto 0 auto;
+    // padding-bottom: 1.5vw;
+    ul {
+      margin-bottom: 0;
+    }
+    ul li {
+      color: white;
+    }
+  }
+}
+
+.detail {
+  padding-top: 7vw;
+  background: url(https://res.cloudinary.com/dp92qug2f/image/upload/v1680833522/3483001_tugcgg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  height: auto;
+  box-shadow: inset 0 0 0 10px #1f1834b1;
+  position: relative;
+  color: white;
+  .detailmain {
+    width: 60%;
+    margin: 0 auto;
+    h1 {
+      font-family: var(--font1);
+      font-size: 4vw;
+      font-weight: 600;
+      font-variant: small-caps;
+      text-align: center;
+      text-decoration: underline;
+      margin-bottom: 5vw;
+    }
+    ul li {
+      margin: 1.5vw 0;
+      // padding-bottom: 1.5w;
+      .bold {
+        font-size: 1.2vw;
+        color: red;
+      }
+    }
+  }
+}

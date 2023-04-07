@@ -9,7 +9,7 @@ const Motto = () => {
       <div className={style.mottocont}>
         {mottodb.map((item) => {
           return (
-            <div className={style.indicard}>
+            <div className={style.indicard} key={item.id}>
               <div className={style.imgholder}>
                 <img src={item.img} alt="" />
               </div>
