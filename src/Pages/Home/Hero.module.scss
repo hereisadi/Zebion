@@ -1,5 +1,5 @@
 .herotop {
-  background: url(https://res.cloudinary.com/dp92qug2f/image/upload/v1680801403/zebion/kaziranga_bg_rpi0sy.avif);
+  background: url(https://res.cloudinary.com/dp92qug2f/image/upload/v1680857313/zebion/grey-crowned-crane-bird-crane-animal-45853_qoezor.webp);
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -13,7 +13,8 @@
   transform: translate(-50%, -50%);
   //   color: #161c2f;
   color: white;
-  font-size: 6vw;
+  font-size: 8vw;
+  font-weight: 900;
   font-family: var(--font1);
 }
 
@@ -29,7 +30,7 @@
 
 @media (max-width: 660px) {
   .herotop {
-    background-position: 80%;
+    background-position: 50%;
   }
 
   .herotxt {

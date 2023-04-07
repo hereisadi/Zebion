@@ -20,7 +20,7 @@ const Wsancdetail = () => {
             <div className={style.detailmain}>
               <h1>{item.title}</h1>
               <ul>
-                <li>Located in {item.locn}</li>
+                <li>Located in {item.Locn}</li>
                 <li>Area of {item.Area}</li>
                 <li>
                   <span className={style.bold}>Habitat:</span>
@@ -28,7 +28,9 @@ const Wsancdetail = () => {
                   <br /> {item.habitat}
                 </li>
                 <li>
-                  <span className={style.bold}>Issues due to Global Warming:</span>
+                  <span className={style.bold} id={style.underline}>
+                    Issues due to Climate change:
+                  </span>
                   <br />
                   <br />
                   {item.issuesfacing}
