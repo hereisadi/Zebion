@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import Navbar from "../../Components/Navbar/Navbar";
 import About from "./About";
 import Motto from "./Motto";
+import Footer from "../../Components/Footer/Footer";
 const Home = () => {
   useEffect(() => {
     document.title = "Home";
@@ -15,6 +16,7 @@ const Home = () => {
       <Hero />
       <About />
       <Motto />
+      <Footer />
     </>
   );
 };

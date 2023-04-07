@@ -26,7 +26,7 @@ const Work = () => {
       <Navbar />
       <div className={style.home}>
         <div className={style.hometop}>
-          <h1>We Work for the Upliftment of Biosphere reserves.</h1>
+          <h1>We Work for the Upliftment of Biosphere reserves and Climate.</h1>
         </div>
 
         <div className={style.dropdowndiv}>
