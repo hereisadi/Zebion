@@ -120,43 +120,111 @@ export const nationalpark = [
     endangered: "",
     weather: "",
   },
+  {
+    id: "more coming soon",
+    title: "more coming soon.....",
+    Locn: " more coming soon....",
+    Area: "more coming soon....",
+    habitat: "more coming soon....",
+    issuesfacing: "more coming soon",
+    endangered: "more coming soon.....",
+    weather: "more coming soon.....",
+  },
 ];
 
 export const wildlifesancdata = [
   {
     id: "Pani Dihing Wildlife Sanctuar",
     title: "Pani Dihing Wildlife Sanctuar",
+    Locn: "Assam",
+    Area: "33.93-square-kilometre",
+    habitat:
+      "As many as 267 species of birds including 70 species of migratory birds have been identified and recorded at Pani Dihing.Some notable birds seen here are bar-headed goose, greylag goose, Indian spot-billed duck, mallard, gadwall, wigeon, garganey, shoveller, red-crested pochard, common pochard, ferruginous duck, greater adjutant stork, lesser adjutant stork, open-bill stork, white-necked stork, glossy ibis, grey plover, Himalayan griffon and white-rumped vulture Assam's first record of bank myna was from Pani-Dihing Among mammals, there were past records of great Indian one-horned rhinoceros and tiger. Wild elephants, hog deer, rhesus monkey and otters",
+    issuesfacing:
+      "Climate change affects the through rising temperatures and changes in precipitation patterns, causing disturbance.The climate requirement for the area is tropical monsoon and annual temperature ranges between 7-38 degree Celsius annually. Annual rainfall is approximately 2400–3200 mm with a relative humidity of 65-85 %.",
+    endangered: "",
+    weather: "",
   },
   {
     id: "Dadra and Nagar Haveli Wildlife Sanctuary",
     title: "Dadra and Nagar Haveli Wildlife Sanctuary",
+    Locn: "Delhi",
+    Area: "97 square kilometers",
+    habitat:
+      "This wildlife sanctuary is a home for many antelope species such as Chital, Nilgai, Sambar, Chinkara and Blackbuck. Other species like Indian peafowl, Flameback Woodpecker, Thrushes etc can also be found.",
+    issuesfacing:
+      "Climate change affects the through rising temperatures and changes in precipitation patterns, causing disturbance for the species.",
+    endangered: "",
+    weather: "",
   },
   {
     id: "Shoolpaneshwar Wildlife Sanctuary",
     title: "Shoolpaneshwar Wildlife Sanctuary",
+    Locn: "Gujarat",
+    Area: "607.7 km2",
+    habitat:
+      "The forests are moist deciduous with a few small dry bamboo brakes, a few pockets of moist teak forest in hilly areas, degraded scrub forest, and riverine forest bordering Terav and Narmada Rivers and small water courses.[1][2] The hilly tract of the sanctuary supports forests harboring floral and faunal elements, which bear similarities to those in the Himalayas and Western Ghats. It is also a major watershed feeding two major reservoirs thus conserving the soil and water.",
+    issuesfacing:
+      "Climate change affects the through rising temperatures and changes in precipitation patterns, causing disturbance.",
+    endangered: "",
+    weather: "",
   },
   {
     id: "Biligiriranga Hills",
     title: "Biligiriranga Hills",
+    Locn: "Karnataka",
+    Area: "322.4 square kilometres ",
+    habitat:
+      "The Biligiris are charnockite hills, covered with tropical dry broadleaf forest, part of the South Deccan Plateau dry deciduous forests ecoregion. The forests range from scrub forests at lower elevations, degraded by over-use, to the tall deciduous forests typical of the ecoregion, to stunted shola forests and montane grasslands at the highest elevations, which exceed 1800 meters. The forests form an important wildlife corridor between the Western Ghats and the Eastern Ghats, linking the largest populations of Asian elephants and tigers in southern India.",
+    issuesfacing:
+      "Climate change impactThe sanctuary, ~35 km long north–south and ~15 km wide east–west, is spread over an area of 540 km2 with a wide variation in mean temperature (9 °C to 16 °C minimum and 20 °C to 38 °C maximum) and annual rainfall (600 mm at the base and 3000 mm at the top of the hills) The hill ranges, within the sanctuary raise as high as 1200 m above the basal plateau of 600 m and run north–south in two ridges. The wide range of climatic conditions along with the altitude variations within the small area of the sanctuary have translated it into a highly heterogeneous mosaic of habitats such that we find almost all major forest vegetation types – scrub, deciduous, riparian, evergreen, sholas and grasslands.",
+    endangered: "",
+    weather: "",
   },
   {
     id: "Hazaribag Wildlife Sanctuary",
     title: "Hazaribag Wildlife Sanctuary",
+    Locn: "Jharkhand",
+    Area: "184 km2",
+    habitat:
+      "Flora fauna details:is home to sambar, nilgai, chital, peafowl, sloth bears, black bears, hyenas and pigeons. Earlier it was home to tigers, leopards, and many more animals but now rarely animals other than nilgai and hyena are seen. ",
+    issuesfacing: "",
+    endangered: "",
+    weather: "",
   },
   {
     id: "Aralam Wildlife Sanctuary",
     title: "Aralam Wildlife Sanctuary",
+    Locn: "Kerala",
+    Area: "55 km2",
+    habitat:
+      "Flora fauna detailsIn the evergreen areas the following species are found: vellapine (Vateria indica), Mesua ferrea, Mechilus macrantha, Calophyllum elatum, Cullenia rosayroona, Magnifera indica, Toona cillata, Myristica Species, Euphorbia Longana, Strobilanthes.",
+    issuesfacing:
+      "Climate change impact: Climatic factors include rainfall, temperature, humidity, frost and so on. Average rainfall: 4000 mm. Temperature: 11.0°C to 40.0°C. Humidity: 60 to 100 %. Wind: Regular wind during Southwest monsoon. Water source: Aralam River, Cheenkannipuzha River.",
+    endangered: "",
+    weather: "",
+  },
+  {
+    id: "more coming soon",
+    title: "more coming soon.....",
+    Locn: " more coming soon....",
+    Area: "more coming soon....",
+    habitat: "more coming soon....",
+    issuesfacing: "more coming soon",
+    endangered: "more coming soon.....",
+    weather: "more coming soon.....",
   },
 ];
 
 export const ramsardata = [
   {
-    id: 1,
-    title: "",
-    locn: "",
-    Area: "",
-    habitat: "",
-    endangered: "",
-    weather: "",
+    id: "more coming soon",
+    title: "more coming soon.....",
+    Locn: " more coming soon....",
+    Area: "more coming soon....",
+    habitat: "more coming soon....",
+    issuesfacing: "more coming soon",
+    endangered: "more coming soon.....",
+    weather: "more coming soon.....",
   },
 ];
