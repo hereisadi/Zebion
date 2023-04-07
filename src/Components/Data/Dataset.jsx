@@ -148,3 +148,15 @@ export const wildlifesancdata = [
     title: "Aralam Wildlife Sanctuary",
   },
 ];
+
+export const ramsardata = [
+  {
+    id: 1,
+    title: "",
+    locn: "",
+    Area: "",
+    habitat: "",
+    endangered: "",
+    weather: "",
+  },
+];
