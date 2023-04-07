@@ -28,7 +28,8 @@ const Navbar = () => {
       <Link to="/">
         <img
           className="brand-logo logo"
-          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1680804464/zebion/earth-removebg-preview_sy1esu.webp"
+          // src="https://res.cloudinary.com/dp92qug2f/image/upload/v1680858820/zebion/Screenshot_2023-04-07_142729_akaves.webp"
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1680859081/zebion/Screenshot_2023-04-07_142729-removebg-preview_cl2qco.webp"
           alt=""
         />
       </Link>
@@ -51,7 +52,7 @@ const Navbar = () => {
           <NavLink to="/work">WORK</NavLink>
         </li>
         <li>
-          <NavLink to="/resources">RESOURCES</NavLink>
+          <NavLink to="/resource">RESOURCE</NavLink>
         </li>
       </ul>
     </nav>

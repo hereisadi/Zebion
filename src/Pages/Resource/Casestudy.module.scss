@@ -1,0 +1,96 @@
+.casestudy {
+  min-height: 100vh;
+  height: auto;
+  background-color: #161c2f;
+  padding-top: 7vw;
+  h1 {
+    font-family: var(--font1);
+    color: white;
+    font-size: 3vw;
+    font-weight: 800;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .ulhlder {
+    width: 55%;
+    margin: 0 auto;
+    padding-bottom: 5vw;
+    .kazipoints {
+      margin: 5vw 0;
+      color: white;
+      li {
+        margin: 1.5vw 0;
+      }
+    }
+    .headingann {
+      font-family: var(--font1);
+      color: white;
+      text-decoration: underline;
+      font-size: 2vw;
+      text-align: center;
+      font-weight: 500;
+    }
+    .mapholder {
+      background-color: #656464;
+      border-radius: 15px;
+      margin: 5vw 0 0 0;
+      .imgholdermap {
+        width: 90%;
+        padding-top: 1.5vw;
+        padding-bottom: 1.5vw;
+        height: 30vw;
+        margin-left: auto;
+        margin-right: auto;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 15px;
+          transition: 1s;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  .casestudy {
+    padding-top: 14vw;
+    h1 {
+      font-size: 6vw;
+      margin-bottom: 10vw;
+    }
+  }
+
+  .ulhlder {
+    .kazipoints {
+      // padding-left: 4vw;
+      padding-right: 4vw;
+    }
+    width: 100% !important;
+    .mapholder {
+      .imgholdermap {
+        width: 100%;
+      }
+    }
+  }
+
+  .headingann {
+    font-size: 5vw !important;
+    margin: 10vw 0 !important;
+  }
+
+  .mapholder {
+    width: 80%;
+    margin-left: auto !important;
+    height: 50vw;
+    margin-right: auto !important;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 15px;
+      transition: 1s;
+    }
+  }
+}

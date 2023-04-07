@@ -5,6 +5,7 @@ import Work from "./Pages/Work/Work";
 import ParkDetail from "./Pages/Work/ParkDetail";
 import Wsancdetail from "./Pages/Work/Wsancdetail";
 import Ramsarmore from "./Pages/Work/Ramsarmore";
+import Casestudy from "./Pages/Resource/Casestudy";
 
 // import { Navbar, Footer } from "./Components";
 
@@ -13,6 +14,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/work" element={<Work />} />
+      <Route path="/resource" element={<Casestudy />} />
       <Route path="/nationalpark/:id" element={<ParkDetail />} />
       <Route path="/wildlife sancuary/:id" element={<Wsancdetail />} />
       <Route path="/ramsar sites/:id" element={<Ramsarmore />} />
