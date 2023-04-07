@@ -46,11 +46,33 @@
           height: 100%;
           object-fit: cover;
           border-radius: 15px;
+          pointer-events: none;
+          user-select: none;
           transition: 1s;
         }
       }
     }
   }
+}
+
+#dropdowncasestudyhj {
+  text-align: center;
+  margin: 5vw 0;
+}
+
+.last5day {
+  text-align: center;
+  h2 {
+    color: white;
+    font-family: var(--font1);
+    margin: 5vw 0;
+    text-decoration: underline;
+  }
+}
+
+.temmpdt {
+  text-align: center;
+  color: white;
 }
 
 @media (max-width: 660px) {
@@ -91,6 +113,12 @@
       object-fit: cover;
       border-radius: 15px;
       transition: 1s;
+    }
+  }
+
+  .last5day {
+    h2 {
+      margin: 10vw 0;
     }
   }
 }
