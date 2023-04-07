@@ -1,8 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Dropdown from "react-bootstrap/Dropdown";
+import DropdownButton from "react-bootstrap/DropdownButton";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import style from "./Casestudy.module.scss";
+
+// eslint-disable-next-line import/no-unresolved
+import "bootstrap/dist/css/bootstrap.min.css";
+import April6 from "./April6";
+import April5 from "./April5";
+import April4 from "./April4";
+import April3 from "./April3";
+import April2 from "./April2";
+
 const Casestudy = () => {
+  useEffect(() => {
+    document.title = "Case Study";
+  }, []);
+
+  const [show11, setShow11] = useState("06-04-23");
+
+  const [active3, setActive3] = useState("06-04-23");
+  const handleClick0 = (e) => {
+    // console.log(e);
+    setActive3(e);
+  };
   return (
     <>
       <Navbar />
@@ -36,10 +58,41 @@ const Casestudy = () => {
           <div className={style.mapholder}>
             <div className={style.imgholdermap}>
               <img
-                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1680861896/kaziranga1_y0nho1.webp"
+                src="https://res.cloudinary.com/dp92qug2f/image/upload/v1680866249/kaziranga2_s8tt6e.webp"
                 alt=""
               />
             </div>
+          </div>
+
+          <div className={style.last5day}>
+            <h2>Last 5 Day Weather Forecast</h2>
+          </div>
+
+          <div className={style.dropdowndiv} id={style.dropdowncasestudyhj}>
+            <div
+              className={` ${show11 === "core" ? "active-link" : ""}`}
+              onClick={() => setShow11("core")}
+            >
+              <DropdownButton
+                id="dropdown-custom-1"
+                title={active3}
+                onSelect={handleClick0}
+              >
+                <Dropdown.Item eventKey="06-04-23">06-04-23</Dropdown.Item>
+                <Dropdown.Item eventKey="05-04-23">05-04-23</Dropdown.Item>
+                <Dropdown.Item eventKey="04-04-23">04-04-23</Dropdown.Item>
+                <Dropdown.Item eventKey="03-04-23">03-04-23</Dropdown.Item>
+                <Dropdown.Item eventKey="02-04-23">02-04-23</Dropdown.Item>
+              </DropdownButton>
+            </div>
+          </div>
+
+          <div className="tab_content">
+            {show11 === "core" && active3 === "06-04-23" && <April6 />}
+            {show11 === "core" && active3 === "05-04-23" && <April5 />}
+            {show11 === "core" && active3 === "04-04-23" && <April4 />}
+            {show11 === "core" && active3 === "03-04-23" && <April3 />}
+            {show11 === "core" && active3 === "02-04-23" && <April2 />}
           </div>
         </div>
       </div>
