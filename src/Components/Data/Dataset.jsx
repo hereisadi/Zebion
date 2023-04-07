@@ -205,6 +205,54 @@ export const wildlifesancdata = [
     weather: "",
   },
   {
+    id: "Tadoba Andhari Tiger Reserve",
+    title: "Tadoba Andhari Tiger Reserve",
+    Locn: "Maharashtra",
+    Area: ":577.96 square kilometres ",
+    habitat:
+      "Tadoba Reserve is a predominantly southern tropical dry deciduous forest with dense woodlands comprising about eighty seven per cent of the protected area. Teak is the predominant tree species. Other deciduous trees found in this area include ain (crocodile bark), bija, dhauda, hald, salai, semal and tendu. Beheda, hirda, karaya gum, mahua madhuca (crepe myrtle), palas (flame-of-the-forest, Butea monosperma) and Lannea coromandelica (wodier tree). Axlewood (Anogeissus latifolia, a fire-resistant species), black plum and arjun are some of the other tropical trees that grow in this reserve.",
+    issuesfacing:
+      "Climate change impact: Winters stretch from November to February; during this season, daytime temperatures are in the 25°–30 °C range and the park is lush green. While summers are extremely hot in Tadoba, with the temperature rising to 47 °C, it is the ideal time to sight mammals near lakes as vegetation is minimal. The monsoon season begins in June; the area receives heavy rainfall during this season (approx.1275 mm) and humidity hovers around 66%. After the scorching summers where the mercury rises up to 48 degrees, the arrival of monsoon in June is a big relief. Though the climate becomes highly humid, the rains do not fail to revive the jungle. As the rains make the terrain inaccessible the core zones of the Tadoba Andhari Tiger Reserve are closed between July and September and only buffer zone is open for the tourists. The visit to Tadoba National Park in monsoon is a sheer bliss where you can witness a completely different Tadoba. Winter is the ideal time to explore Tadoba with lush greenery around. Starting from October winter lasts till February. Though the winters are not very cool in Tadoba the temperature ranges between 20°C and 30°C. ",
+    endangered: "",
+    weather: "",
+  },
+  {
+    id: "Yawal Wildlife Sanctuary",
+    title: "Yawal Wildlife Sanctuary",
+    Locn: "Maharashtra",
+    Area: "176 square kilometres",
+    habitat:
+      "Teak, Salai, and Anjan trees dominate the forest. Other common plant species include Shisam, Haldu, Jamun, Tendu, Awala, bamboo and other long grasses.The sanctuary is home to lots of fauna including tigers, leopards, sambar deer, chinkara, nilgai, sloth bears, jackals, foxes, wolves,wild boars, barking deer, jungle cats, palm civet, wild dogs, and flying squirrels.",
+    issuesfacing:
+      "Heavy rainfall is present, particularly from June to September, often reducing visitation from tourists. The most popular time to visit is it's Winter, with a temperature range of 20-28°C it is far milder than its typical scorching summers (with the potential to pass 35°C).",
+    endangered: "",
+    weather: "",
+  },
+  {
+    id: "Sita Mata Wildlife Sanctuary",
+    title: "Sita Mata Wildlife Sanctuary",
+    Locn: "Rajasthan",
+    Area: "422.95 square kilometers",
+    habitat:
+      "It is the only forest region where more than half of the trees are high building value teak.[citation needed] These include salar, tendu (Diospyros melonoxy Roxb.), bad, peepal, babool, neem, arinja (Acacia leucophaea), siras, churail, kachnar, gulmohar, amaltas, bakayan, ashok, mahua, semal, goondi, khejadi (Prosopis spicigera), kumta (Acacia rupestris), amla, bamboo, sindoor, chironjee, rudraksha and bel trees. A survey has been taken to document ethnobotanical information on plants used by the natives to construct their huts and hamlets. At least 31 different species are used to construct of various types of huts and hamlets in the sanctuary.[3] Of the 108 varieties of high value medicinal herbs found here, 17 are endangered.",
+    issuesfacing:
+      "The average elevation ranges between 280 and 600 metres above mean sea level with an average rainfall of 756 mm annually. The temperature variation during winter is between 6 and 14 degrees Celsius and in summer is between 32 and 45 degrees.",
+    endangered: "",
+    weather: "",
+  },
+  {
+    id: "National Chambal Gharial Wildlife Sanctuary",
+    title: "National Chambal Gharial Wildlife Sanctuary",
+    Locn: "Rajasthan",
+    Area: ":5,400 km2",
+    habitat:
+      "The critically endangered gharial and the red-crowned roof turtle live here, and together with the endangered Ganges river dolphin are the keystone species of the sanctuary. Other large threatened inhabitants of the sanctuary include mugger crocodile, smooth-coated otter, striped hyena and Indian wolf. Chambal supports 8 of the 26 rare turtle species found in India, including Indian narrow-headed softshell turtle, three-striped roof turtle and crowned river turtle. Other reptiles who live here are: Indian flapshell turtle, soft shell turtle, Indian roofed turtle, Indian tent turtle and monitor lizard",
+    issuesfacing: "",
+    endangered:
+      "rhesus macaque, Hanuman langur, golden jackal, Bengal fox, common palm civet, small Asian mongoose, Indian grey mongoose, jungle cat, wild boar, sambar, nilgai, blackbuck, Indian gazelle, northern palm squirrel, Indian crested porcupine, Indian hare, Indian flying fox and Indian long-eared hedgehog",
+    weather: "",
+  },
+  {
     id: "more coming soon",
     title: "more coming soon.....",
     Locn: " more coming soon....",
