@@ -19,7 +19,7 @@ const ParkDetail = () => {
             <div className={style.detailmain}>
               <h1>{item.title}</h1>
               <ul>
-                <li>Located in {item.locn}</li>
+                <li>Located in {item.Locn}</li>
                 <li>Area of {item.Area}</li>
                 <li>
                   <span className={style.bold}>Habitat:</span>

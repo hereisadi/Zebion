@@ -2,7 +2,7 @@ export const nationalpark = [
   {
     id: "Kaziranga National Park",
     title: "Kaziranga National Park",
-    locn: "Assam",
+    Locn: "Assam",
     Area: "1,090 km²",
     habitat:
       "Kaziranga is a vast expanse of tall elephant grass, marshland, and dense tropical moist broadleaf forests, criss-crossed by four major rivers, including the Brahmaputra, and the park includes numerous small bodies of water. Kaziranga has been the theme of several books, songs, and documentaries. Also, over 500 species of birds, Indian rhinoceros, Bengal tigers, Asian elephants, and water buffaloes.",
