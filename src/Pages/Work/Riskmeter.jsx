@@ -7,7 +7,10 @@ const Riskmeter = () => {
         <h1>Kaziranga National Park</h1>
       </div>
       <div className={style.imhfit}>
-        <img src="./images/mll.webp" alt="" />
+        <img
+          src="https://res.cloudinary.com/dp92qug2f/image/upload/v1680945307/zebion/mll_qp4tlq.webp"
+          alt=""
+        />
       </div>
 
       <div className={style.status}>

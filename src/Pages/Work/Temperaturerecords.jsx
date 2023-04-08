@@ -1,10 +1,10 @@
 import React from "react";
-
+import style from "./Temperature.module.scss";
 const Temperaturerecords = () => {
   return (
-    <div>
+    <div className={style.imgholder}>
       <img
-        src="https://bmedia.istockphoto.com/id/1211529952/photo/rhino-in-the-wild-of-chitwan-national-park-on-nepal.webp?s=612x612&w=is&k=20&c=HOMBijMit8bbCSNvUYmVEqPzWUYrqN40Pf3FvsCetKE="
+        src="https://res.cloudinary.com/dp92qug2f/image/upload/v1680945374/zebion/WhatsApp_Image_2023-04-08_at_14.41.36_kzlj6m.webp"
         alt=""
       />
     </div>
