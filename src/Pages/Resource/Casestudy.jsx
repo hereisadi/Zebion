@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
-import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import style from "./Casestudy.module.scss";
 
@@ -12,6 +11,7 @@ import April5 from "./April5";
 import April4 from "./April4";
 import April3 from "./April3";
 import April2 from "./April2";
+import Navbarother from "../../Components/Navbar/Navbarother";
 
 const Casestudy = () => {
   useEffect(() => {
@@ -27,7 +27,8 @@ const Casestudy = () => {
   };
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Navbarother />
       <div className={style.casestudy}>
         <h1>Case Study of Kaziranga National Park</h1>
         {/* <img src="https://api.mapbox.com/styles/v1/weather/cja1hk6znafpv2sqp1c3z63wb/tiles/8/194/108?access_token=pk.eyJ1Ijoid2VhdGhlciIsImEiOiJjamxncnYwMmYxYXgxM3BzNWEyNHUzbmhhIn0.UqrZwn6qTa6WJwdHjPVUfA" alt="" /> */}
